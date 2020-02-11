@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='StyleSheet' href='style.css'>
+    </head>
+    <body>
+        <div id='tab-buttons'>
+            <button type="tab">Project 1</button>
+            <button id="add-project-button" type="tab"><img src='../images/plus.png' alt='button to add new project'></button>
+        </div>
+        <div class='tab-container'>
+            <div class='control-buttons'>
+                <button class='edit-project-button'><img src='../images/edit.png' alt='button to edit project title'></button>
+                <button class='add-to-list-button'><img src='../images/plus.png' alt='button to add new list object to project'></button>
+                <button class='delete-project-button'><img src='../images/bin.png' alt='button to delete project'></button>
+            </div>
+            <div class='project'>
+                    <div class='project-title'>Project 1</div>
+                    <div class='list'>
+                        <div class='list-object'>
+                            <div>
+                                <p class='list-text-content'>list task can be written here</p>
+                                <div class='dates-and-priority'>
+                                    <p>start date:</p>
+                                    <p>due date:</p>
+                                    <p>Priority:</p>
+                                </div>
+                            </div>
+                            <div class='list-object-controls'>
+                                <button class='list-object-checkbox'><img src='../images/tick.png' alt='checkbox-icon'></button>
+                                <button class='list-object-open-button'><img src='../images/plus.png' alt='open-list-object-options-icon'></button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <script src='script.js'></script>
+    </body>
+</html>

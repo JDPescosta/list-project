@@ -1,0 +1,187 @@
+.tab-container{
+    display: flex;
+    flex-direction: row;
+    background-color: #13CE66;
+    box-shadow: none;
+    width: 1365px;
+    height: 925px;
+    margin-left: 0.257px;
+    margin-top: 29.5px;
+    
+}
+
+#tab-buttons{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+#tab-buttons button {  
+    background-color: #13CE66;
+    border-radius: 31px;
+    width: 260px;
+    height: 65px;
+    padding-bottom: 10%;
+    color: #47525E;
+    font-family: Lato;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 33px;
+}
+
+#add-project-button{
+    margin-left: -205px;
+    z-index: -5;
+    background-color: grey !important;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#add-project-button img{
+    height: 24px;
+    width: 24px;
+    margin-right: 15px;
+    margin-top: 0;
+
+    z-index: -1;
+}
+
+
+
+.control-buttons{
+    display: flex;
+    flex-direction: column;
+    width: 38px;
+    height: 120px;
+    margin: 0;
+    margin-top: 64px;
+    
+}
+
+.control-buttons button{
+    background:none;
+    border: none;
+    width: 42px;
+    height: 42px;
+    margin: 0;
+    margin-left: 6px;
+    margin-bottom: 24px;
+}
+
+.edit-project-button img{
+    width: 42px;
+    height: 42px;
+}
+
+.add-to-list-button img{
+    width: 42px;
+    height: 42px;
+}
+
+.delete-project-button img{
+    width: 42px;
+    height: 42px;
+}
+
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+    justify-items: center;
+    background-color: #FFFFFF;
+    border-radius: 36px;
+    width: 1232px;
+    height: 856px;
+    margin-left: 26px;
+}
+
+.project-title {
+  color: #47525E;
+  font-family: Lato;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 83px;
+  width: 742px;
+  text-align: center;
+}
+
+.list-object {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 36px;
+    border-style: solid;
+    border-width: 16px;
+    border-color: #13CE66;
+    width: 1116px;
+    height: 176.49px;
+}
+
+.list-text-content {
+  color: #47525E;
+  font-family: Lato;
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 32px;
+  width: 883px;
+  text-align: left;
+  padding-left: 12px;
+}
+
+.dates-and-priority {
+    display: flex;
+    flex-direction: row;
+    padding-left: 12px;
+}
+
+.dates-and-priority p{
+  color: #47525E;
+  font-family: Lato;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 33px;
+  width: 274px;
+  text-align: left;
+}
+
+.list-object-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:16px;
+    margin-left: 120px;
+}
+
+.list-object-checkbox {
+  background-color: #47525E;
+  border: 2px solid #47525E;
+  border-radius: 100%;
+  width: 46px;
+  height: 46px;
+}
+
+.list-object-checkbox img{
+    width: 24px;
+    height: 24px;
+}
+
+.list-object-open-button {
+    padding-top: 24px;
+    background:none;
+    border: none;
+}
+
+.list-object-open-button img{
+    width: 42px;
+    height: 42px;
+}

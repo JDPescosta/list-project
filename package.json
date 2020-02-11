@@ -1,0 +1,15 @@
+{
+  "name": "list-project",
+  "version": "1.0.0",
+  "description": "js practice project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JDPescosta",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "webpack-cli": "^3.3.10"
+  }
+}
